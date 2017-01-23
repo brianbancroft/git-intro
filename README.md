@@ -78,21 +78,32 @@ In this section, we're going to now take what we've learned on our own and expan
 
 Because it is currently the largest home to most open-source projects, we're going to collaborate on Github. 
 
+## Branches
+
+### Creating new Branches
+
+### Switching
+
+### Rebasing
+
+### Merge
+
+## Conflicts
+
+# Online Collaboration
+
 ## Theory: Difference between Git and Github
 
-## Setting up your repository (the quick way)
+### Creating a Repo and setting it up
 
-## Collaboration with a peer
+### Cloning a Repo
 
-# Conflicts
-
-
-# Conflict Resolution and Git
+### Best Collaboration: The Pull Request
 
 Sometimes when collaborating, it's entirely possible to run into conflicts with your source material. 
 
 # Leaflet Exercise
-So this is the last portion. Because Maptime has 
+So this is the last portion. Because Maptime is about the intersection of mapping and the internet, it wouldn't feel right to finish the night without putting our hands on a map 
 
 `git clone <insert repo for maptime leaflet example here>`
 

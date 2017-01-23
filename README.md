@@ -21,6 +21,8 @@ For this evening, we're going to
 * Bonus: The Gitignore
 
 
+This is going to be a lecture that's geared to teach 
+
 # Why
 Developers use versioning so that they can collaborate, share and exchange ideas with the minimum amount of fuss possible. You're going to learn it so that you all can 
 
@@ -31,8 +33,6 @@ Developers use versioning so that they can collaborate, share and exchange ideas
 * A chipper attitude to learn something that's tricky at first
 
 
-
-
 # Setup
 
 To Access the Ryerson Wifi, you'll need the following: 
@@ -40,6 +40,16 @@ _Note to self: Get Ryerson public wifi info on monday in advance_
 
 Chances are if you're running a newer mac, you'll already have Git installed. If you don't, you can a suitable downloader here:
 https://git-scm.com/downloads
+
+
+# Theory
+
+While many are working on setup, here's a quick rundown on what Git is. 
+
+<! 5 minutes maximum >
+
+
+# Setup - Continued
 
 Once you've installed git, you're going to need to open the command line tools. This is `Terminal` in Linux/Mac, or Dos in Windows (There is also the git bash as well)
 
@@ -63,8 +73,29 @@ The next potion will be rapid-fire. Now that we've set up Git, we're going into 
 
 
 ## Initializing a Repos
+In order to create a new repo, the command used is `git init`. 
+
+
+
+To make use of that command, do the following: 
+
+1. In the command prompt or terminal, navagate to the directory by using the following commands:
+  - `cd <directory name>` for all operating systems
+  - `cd ..` to go back a directory
+  - `ls` (linux, mac) or `cd` (windows) to see the contents of your directory. 
+2. Before we initialize the repository, we want to verify the repo's status. Enter `git status` to verify.
+3. Once in the proper directory, type in `git init`. This initializes the repository. 
+
+### Git status
+`git status` shows the status of your repo including changes that are staged, or unstaged. 
 
 ## Commiting to a Changes
+When you've made changes to a file or a series of files, there are two commands you need to do to version them:
+
+1. `git add <filename>` or `git add .`, which adds one or more files. 
+2. If you're sure that you want to _commit them_, use `git commit -m <message here>`
+
+When you type in a commit message, try to keep it under 50 characters, short, and in the present tense.
 
 ## Undoing your last set of Changes
 

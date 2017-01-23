@@ -98,8 +98,17 @@ When you've made changes to a file or a series of files, there are two commands 
 When you type in a commit message, try to keep it under 50 characters, short, and in the present tense.
 
 ## Undoing your last set of Changes
+If you've _added_ files that you want to undo, the command you seek is `git reset`. To reset a single file, it's `git reset HEAD <filename>`.
+
+There are also circumstances where you want to revert your saving to the last commit. There are two commands which you should only use if you really need to. They are as follows:
+
+1. `git reset --hard head` for all files
+2. 
+
+Again, take *caution* when you use these, as you cannot recover what you've lost. 
 
 ## Looking at a log
+
 
 ## Jumping to a certain point in the log. 
 

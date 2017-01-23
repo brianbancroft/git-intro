@@ -1,0 +1,35 @@
+// This is an example of multiple entries in GeoJSON
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maptime!"
+        "description": "We are here"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38113451004028,
+          43.657843882058906
+        ]
+      }
+    }, // <-- Notice the comma here! We need those between elements.
+
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "< ENTER NAME HERE >",
+        "description": " < Place Description here > "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          < Enter Longitude here. Remember that W is negative! >,
+          < This is where the latitude goes! >
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        name: "#Maptime!,
+        description: "We are here!"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.38113451004028,
+          43.657843882058906
+        ]
+      }
+    }
+  ]
+}

@@ -14,7 +14,7 @@ Date: Tuesday, January 24, 2017 - 18:45
 * Give a brief overview on what versioning is
 * Set up Git on your machine
 * Create a Repository
-* Tracking Changes; or `add`, `commit`, `log`
+* Tracking Changes; or ```add```, ```commit```, ```log```
 * Recover old Changes
 * Collaborating
 * Conflicts

@@ -7,7 +7,7 @@ Date: Tuesday, January 24, 2017 - 18:45
 
 # What is Versioning? 
 
-![Background](/phdComicsVersioning.gif)
+![Background](img/phdComicsVersioning.gif)
 
 #HSLIDE
 
@@ -26,7 +26,7 @@ Date: Tuesday, January 24, 2017 - 18:45
 
 # Setup
 
-## Step 1: Get Wifi
+### Step 1: Get Wifi
 To Access the Ryerson Wifi, you'll need the following: 
 _Note to self: Get Ryerson public wifi info on monday in advance_
 _ ensure wifi is on the presentation _
@@ -35,7 +35,7 @@ _ ensure wifi is on the presentation _
 
 # Setup
 
-## Step 2: Get Git and a Github Account!
+### Step 2: Get Git and a Github Account!
 
 (For all common platforms)
 * GIT: https://git-scm.com/downloads

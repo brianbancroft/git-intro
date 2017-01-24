@@ -61,14 +61,14 @@ git config --global user.email hello@brianbancroft.ca
 
 #### To initialize a repo:
 1. Navagate to the programming directory:
-  * For PC Users: Go to `C:\` directory, then `mkdir git-intro`
-  * For Mac/Linux: `cd ~/`, then `mkdir git-intro`
- 2. Initialize a repo by typing in `git init`. 
+  * For PC Users: Go to ```C:\``` directory, then ```mkdir git-intro```
+  * For Mac/Linux: ```cd ~/```, then ```mkdir git-intro```
+ 2. Initialize a repo by typing in ```git init```. 
 
 #HSLIDE
 
 ### Git status
-`git status` shows the status of your repo including changes that are staged, or unstaged. 
+```git status``` shows the status of your repo including changes that are staged, or unstaged. 
 
 #HSLIDE
 
@@ -79,8 +79,8 @@ git config --global user.email hello@brianbancroft.ca
 ## Commiting to a Changes
 Once you've made a file with a few lines:
 
-1. *Stage it*: `git add <filename>` or `git add .`, which adds one or more files. 
-2. *Commit it*: `git commit -m <message here>`
+1. *Stage it*: ```git add <filename>``` or ```git add .```, which adds one or more files. 
+2. *Commit it*: ```git commit -m <message here>```
 
 #HSLIDE
 
@@ -96,10 +96,11 @@ If you've _added_ files that you want to undo, the command you seek is `git rese
 
 There are also circumstances where you want to revert your saving to the last commit. There are two commands which you should only use if you really need to. They are as follows:
 
-1. `git reset --hard HEAD` for all files
-2. `git checkout -- <filename>` if you only wish to revert a single file
+1. ```git reset --hard HEAD``` for all files
+2. ```git checkout -- <filename>``` if you only wish to revert a single file
 
-*BEWARE...*
+**BEWARE...**
+
 #HSLIDE
 
 ## Logs and Diffs
@@ -136,27 +137,22 @@ There are also circumstances where you want to revert your saving to the last co
 
 #HSLIDE
 
-
-
 ### Fork and Clone a repo
 
 Go to `https://github.com/brianbancroft/leaflet-git-exercise`
 
-For this part, we want to show individuals 
+#HSLIDE
+To clone into your own page:
 
-### Best Collaboration: The Pull Request
+1. Fork into your own Repo
+2. Look for the cloning instructions. Copy them.
+3. Paste into command line in new directory
 
-Sometimes when collaborating, it's entirely possible to run into conflicts with your source material. 
+```git clone https://github.com/<your user name here!>/leaflet-git-exercise.git```
 
-# Leaflet Exercise
-So this is the last portion. Because Maptime is about the intersection of mapping and the internet, it wouldn't feel right to finish the night without putting our hands on a map 
+#HSLIDE
 
-`git clone <insert repo for maptime leaflet example here>`
-
-# Conclusion
-
-Thanks for bearing with me for the last 1:20. What I've scratched is the basics of Git, and Github which are used widely by open source developers in both geospatial and non geospatial application. As you improve with these tools, as well as the command line, you'll find that there's a lot of ground to learn to use it in your day-to-day workflow. 
-
+## Thank you!
 
 #HSLIDE
 ### Source Material: 

@@ -24,7 +24,7 @@ For this evening, we're going to
 This is going to be a lecture that's geared to teach 
 
 # Why
-Developers use versioning so that they can collaborate, share and exchange ideas with the minimum amount of fuss possible. You're going to learn it so that you all can 
+Developers use versioning so that they can collaborate, share and exchange ideas with the minimum amount of fuss possible. < More on why here, explaining that it is one of these important programming skills that is seldom taught in school, the same way that housecleaning isn't part of elementary school' 
 
 # What you're going to need to do well
 
@@ -37,6 +37,7 @@ Developers use versioning so that they can collaborate, share and exchange ideas
 
 To Access the Ryerson Wifi, you'll need the following: 
 _Note to self: Get Ryerson public wifi info on monday in advance_
+_ ensure wifi is on the presentation _
 
 Chances are if you're running a newer mac, you'll already have Git installed. If you don't, you can a suitable downloader here:
 https://git-scm.com/downloads
@@ -47,6 +48,10 @@ https://git-scm.com/downloads
 While many are working on setup, here's a quick rundown on what Git is. 
 
 <! 5 minutes maximum >
+
+<Use lego block analogy>
+
+
 
 
 # Setup - Continued
@@ -68,8 +73,10 @@ git config user.email
 ```
 If you've made a mistake, all you have to do is re-enter the configuration variables as we just did above. 
 
+What we've done is we've given your fingerprint and identity that explains who has changed what code.
+
 # Initializing Repos, Adding files and committing
-The next potion will be rapid-fire. Now that we've set up Git, we're going into the basic mechanics of versioning your work, on your own. 
+The next potion will about adding files, and commiting. Now that we've set up Git, we're going into the basic mechanics of versioning your work, on your own. 
 
 
 ## Initializing a Repos
@@ -128,10 +135,14 @@ Because it is currently the largest home to most open-source projects, we're goi
 
 ## Branches
 
+When you think of branches, it's easy to think of the branches of a tree, and how something can branch off from the main body. This isn't an incorrect way of thinking of it. 
 
+Branches in git allow you to try new things, independently from the main source of the code without affecting the main code, until it is time to merge both branches of code. 
 
 
 ### Creating new Branches
+
+To see all the available branches, type in `git branch`. 
 
 ### Switching
 
@@ -145,7 +156,11 @@ Because it is currently the largest home to most open-source projects, we're goi
 
 ### Creating a Repo and setting it up
 
+<Note to self - Skip Pair Programming and go straight to leaflet map> 
+
 ### Cloning a Repo
+
+For this part, we want to show individuals 
 
 ### Best Collaboration: The Pull Request
 

@@ -97,20 +97,25 @@ When you've made changes to a file or a series of files, there are two commands 
 
 When you type in a commit message, try to keep it under 50 characters, short, and in the present tense.
 
+### Where do the old versions go?
+They are stored on a _hidden_ directory, (.git/ for Mac and Linux users) so not to clutter up the system.
+
 ## Undoing your last set of Changes
 If you've _added_ files that you want to undo, the command you seek is `git reset`. To reset a single file, it's `git reset HEAD <filename>`.
 
 There are also circumstances where you want to revert your saving to the last commit. There are two commands which you should only use if you really need to. They are as follows:
 
-1. `git reset --hard head` for all files
-2. 
+1. `git reset --hard HEAD` for all files
+2. `git checkout -- <filename>` if you only wish to revert a single file
 
 Again, take *caution* when you use these, as you cannot recover what you've lost. 
 
-## Looking at a log
+## Logs and Diffs
+
+If you wish to track the changes in a branch from the command line, you can use the command `git log`, which lists a series of commits. 
 
 
-## Jumping to a certain point in the log. 
+
 
 # Sharing and Collaborating
 
@@ -149,5 +154,6 @@ So this is the last portion. Because Maptime is about the intersection of mappin
 
 ####
 Source Material: 
+This lesson was adapted from the Git Novice lesson from Software Carpentry. You can find the repo here:
 http://swcarpentry.github.io/git-novice/
 Copyright © Software Carpentry 

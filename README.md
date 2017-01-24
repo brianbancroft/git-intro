@@ -95,6 +95,8 @@ When you've made changes to a file or a series of files, there are two commands 
 1. `git add <filename>` or `git add .`, which adds one or more files. 
 2. If you're sure that you want to _commit them_, use `git commit -m <message here>`
 
+The difference between the two is that adding one or more files sends it to a staging area, while commiting sends the information you've put together into the repository
+
 When you type in a commit message, try to keep it under 50 characters, short, and in the present tense.
 
 ### Where do the old versions go?
@@ -112,8 +114,9 @@ Again, take *caution* when you use these, as you cannot recover what you've lost
 
 ## Logs and Diffs
 
-If you wish to track the changes in a branch from the command line, you can use the command `git log`, which lists a series of commits. 
+If you wish to track the changes in a branch from the command line, you can use the command `git log`, which lists a series of commits.
 
+If you wish to see the difference between one of more files which you've saved, but haven't committed, there's also the `git diff`. This command will show you the difference between what you've staged, and a prior commit. 
 
 
 
@@ -125,11 +128,12 @@ Because it is currently the largest home to most open-source projects, we're goi
 
 ## Branches
 
+
+
+
 ### Creating new Branches
 
 ### Switching
-
-### Rebasing
 
 ### Merge
 
@@ -151,6 +155,10 @@ Sometimes when collaborating, it's entirely possible to run into conflicts with 
 So this is the last portion. Because Maptime is about the intersection of mapping and the internet, it wouldn't feel right to finish the night without putting our hands on a map 
 
 `git clone <insert repo for maptime leaflet example here>`
+
+# Conclusion
+
+Thanks for bearing with me for the last 1:20. What I've scratched is the basics of Git, and Github which are used widely by open source developers in both geospatial and non geospatial application. As you improve with these tools, as well as the command line, you'll find that there's a lot of ground to learn to use it in your day-to-day workflow. 
 
 ####
 Source Material: 

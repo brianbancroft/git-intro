@@ -48,11 +48,10 @@ https://git-scm.com/downloads
 While many are working on setup, here's a quick rundown on what Git is. 
 
 <! 5 minutes maximum >
-
-<Use lego block analogy>
-
-
-
+Points to cover: 
+1. It was meant primarly as a tool for teams of developers to experiement and share software.
+2. It creates a record of changes that are made to the files, as opposed to new copies of the files themselves
+ - Whiteboard if possible
 
 # Setup - Continued
 

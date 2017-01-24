@@ -3,11 +3,7 @@ An Introduction to Git
 
 Date: Tuesday, January 24, 2017 - 18:45
 
-#HSLIDE 
-
-# What is Versioning? 
-
-![Background](img/phdComicsVersioning.gif)
+#HSLIDE?image=img/phdComicsVersioning.gif
 
 #HSLIDE
 
@@ -46,35 +42,18 @@ _ ensure wifi is on the presentation _
 
 # Theory
 
-While many are working on setup, here's a quick rundown on what Git is. 
+#HSLIDE
 
-<! 5 minutes maximum >
+### Setup - Continued
 
-<Use lego block analogy>
-
-
-
-
-# Setup - Continued
-
-Once you've installed git, you're going to need to open the command line tools. This is `Terminal` in Linux/Mac, or Dos in Windows (There is also the git bash as well)
-
-The first thing you should do when you install git is to set up your user name and email address. This allows you inject your identity into your commits. 
+1. Open the terminal
+2. Enter the following with your own information
 
 ```
 git config --global user.name "Brian Bancroft"
 git config --global user.email hello@brianbancroft.ca
 ```
-There are some other settings that I will be glossing over including the default editor which git uses, as this will be out of scope with the time available tonight. 
-
-To see whether you've entered the proper user name or email, type in the following:
-```
-git config user.name
-git config user.email
-```
-If you've made a mistake, all you have to do is re-enter the configuration variables as we just did above. 
-
-What we've done is we've given your fingerprint and identity that explains who has changed what code.
+#HSLIDE
 
 # Initializing Repos, Adding files and committing
 The next potion will about adding files, and commiting. Now that we've set up Git, we're going into the basic mechanics of versioning your work, on your own. 
@@ -176,8 +155,10 @@ So this is the last portion. Because Maptime is about the intersection of mappin
 
 Thanks for bearing with me for the last 1:20. What I've scratched is the basics of Git, and Github which are used widely by open source developers in both geospatial and non geospatial application. As you improve with these tools, as well as the command line, you'll find that there's a lot of ground to learn to use it in your day-to-day workflow. 
 
-####
-Source Material: 
-This lesson was adapted from the Git Novice lesson from Software Carpentry. You can find the repo here:
-http://swcarpentry.github.io/git-novice/
+
+#HSLIDE
+### Source Material: 
+* http://swcarpentry.github.io/git-novice/
+* http://try.github.io
+
 Copyright © Software Carpentry 

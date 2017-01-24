@@ -61,11 +61,11 @@ git config --global user.email hello@brianbancroft.ca
 
 #### To initialize a repo:
 1. Navagate to the programming directory:
-  * For PC Users: Go to ```C:\``` directory, then 
+  For PC Users: Go to ```C:\``` directory, then 
   ```
   mkdir git-intro
   ```
-  * For Mac/Linux: ```cd ~/```, then 
+  For Mac/Linux: ```cd ~/```, then 
   ```
   mkdir git-intro
   ```

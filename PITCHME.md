@@ -1,7 +1,9 @@
 # MAPTIME Introduction to Git
 An Introduction to Git
 
-Date: Tuesday, January 24, 2017 - 18:45
+Date: Tuesday, January 24, 2017 - 6:45 PM
+
+#HSLIDE
 
 # What
 Versioning. It's that thing you can do with your files to ensure that you (and your peers) can collaborate on the same project, while being able to access prior versions of the topic at any given notice. 

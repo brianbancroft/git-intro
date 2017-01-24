@@ -92,7 +92,7 @@ Once you've made a file with a few lines:
 ```
 git add <filename>
 ``` 
-  - or - 
+  - or;
 ```
 git add .```
 

@@ -14,7 +14,7 @@ Date: Tuesday, January 24, 2017 - 18:45
 * Give a brief overview on what versioning is
 * Set up Git on your machine
 * Create a Repository
-* Tracking Changes; or ```add```, ```commit```, ```log```
+* Tracking Changes; or **add**, **commit**, **log**
 * Recover old Changes
 * Collaborating
 * Conflicts
@@ -61,9 +61,18 @@ git config --global user.email hello@brianbancroft.ca
 
 #### To initialize a repo:
 1. Navagate to the programming directory:
-  * For PC Users: Go to <span style="background:black;color: yellow;">```C:\```</span> directory, then ```mkdir git-intro```
-  * For Mac/Linux: ```cd ~/```, then ```mkdir git-intro```
- 2. Initialize a repo by typing in ```git init```. 
+  * For PC Users: Go to ```C:\``` directory, then 
+  ```
+  mkdir git-intro
+  ```
+  * For Mac/Linux: ```cd ~/```, then 
+  ```
+  mkdir git-intro
+  ```
+ 2. Initialize a repo by typing in 
+ ```
+ git init
+ ```
 
 #HSLIDE
 
@@ -79,8 +88,18 @@ git config --global user.email hello@brianbancroft.ca
 ## Commiting to a Changes
 Once you've made a file with a few lines:
 
-1. *Stage it*: ```git add <filename>``` or ```git add .```, which adds one or more files. 
-2. *Commit it*: ```git commit -m <message here>```
+1. *Stage it*: 
+```
+git add <filename>
+``` 
+  - or - 
+```
+git add .```
+
+2. *Commit it*:
+ ```
+ git commit -m <message here>
+ ```
 
 #HSLIDE
 
@@ -96,8 +115,10 @@ If you've _added_ files that you want to undo, the command you seek is `git rese
 
 There are also circumstances where you want to revert your saving to the last commit. There are two commands which you should only use if you really need to. They are as follows:
 
-1. ```git reset --hard HEAD``` for all files
-2. ```git checkout -- <filename>``` if you only wish to revert a single file
+```
+git reset --hard HEAD
+git checkout -- <filename>
+```
 
 **BEWARE...**
 
@@ -105,9 +126,12 @@ There are also circumstances where you want to revert your saving to the last co
 
 ## Logs and Diffs
 
-* If you wish to track the commits in a branch: `git log`
+* If you wish to track the commits in a branch: 
+```
+git log
+```
 
- * `git diff` shows the difference between what you've saved and the last commit. It can also show differences between other things, too!
+ **git diff** shows the difference between what you've saved and the last commit. It can also show differences between other things, too!
 
 #HSLIDE
 
@@ -119,17 +143,32 @@ There are also circumstances where you want to revert your saving to the last co
 
 ### Branch Commands
 
-* View Branches: `git branch`
-* Create new Branch: `git checkout -b new-branch`
-* Switch from `new-branch` to `master`: `git checkout master`
-* Switch back to new branch: `git checkout new-branch`
+* View Branches: 
+```
+git branch
+```
+* Create new Branch: 
+```
+git checkout -b new-branch
+```
+* Switch from _new-branch_ to _master_: 
+```
+git checkout master
+```
+* Switch back to new branch: 
+```
+git checkout new-branch
+```
 
 #HSLIDE
 
 ### Merge
 
 * Go to the destination branch
-* Merge in the source branch: `git merge new-branch`
+* Merge in the source branch: 
+```
+git merge new-branch
+```
 
 #HSLIDE
 
@@ -139,7 +178,7 @@ There are also circumstances where you want to revert your saving to the last co
 
 ### Fork and Clone a repo
 
-Go to `https://github.com/brianbancroft/leaflet-git-exercise`
+Go to **https://github.com/brianbancroft/leaflet-git-exercise**
 
 #HSLIDE
 To clone into your own page:
@@ -148,7 +187,9 @@ To clone into your own page:
 2. Look for the cloning instructions. Copy them.
 3. Paste into command line in new directory
 
-```git clone https://github.com/<your user name here!>/leaflet-git-exercise.git```
+```
+git clone https://github.com/<your user name here!>/leaflet-git-exercise.git
+```
 
 #HSLIDE
 

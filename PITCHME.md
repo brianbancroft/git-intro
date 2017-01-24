@@ -5,7 +5,7 @@ Date: Tuesday, January 24, 2017 - 18:45
 
 #HSLIDE
 
-![img](img/phdComicsVersioning.gif)
+![img](img/versioncomic.png)
 
 #HSLIDE
 

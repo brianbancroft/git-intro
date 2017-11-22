@@ -1,7 +1,7 @@
-# MAPTIME Introduction to Git
+# GIT
 An Introduction to Git
 
-Date: Tuesday, January 24, 2017 - 18:45
+Date: Wednesay, November 22, 2017 
 
 #HSLIDE
 
@@ -24,10 +24,7 @@ Date: Tuesday, January 24, 2017 - 18:45
 
 # Setup
 
-### Step 1: Get Wifi
-To Access the Ryerson Wifi, you'll need the following: 
-_Note to self: Get Ryerson public wifi info on monday in advance_
-_ ensure wifi is on the presentation _
+### Step 1: Get Wifi!
 
 #HSLIDE
 

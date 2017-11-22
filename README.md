@@ -1,4 +1,4 @@
-# MAPTIME Introduction to Git
+# Git
 An Introduction to Git
 
 Date: Tuesday, January 24, 2017 - 18:45

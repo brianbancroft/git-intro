@@ -18,7 +18,7 @@ Date: Monday, June 2, 2018
 * Recover old Changes
 * Collaborating
 * Conflicts
-* The Leaflet Map Exercise
+* Let's collab and put some points on a map! 🗺
 
 #HSLIDE
 
@@ -50,7 +50,7 @@ Date: Monday, June 2, 2018
 
 ```
 git config --global user.name "Brian Bancroft"
-git config --global user.email hello@brianbancroft.ca
+git config --global user.email brian@gmail.ca
 ```
 #HSLIDE
 
@@ -89,24 +89,18 @@ Once you've made a file with a few lines:
 ```
 git add <filename>
 ```
-  - or;
+  - or
 ```
 git add .```
 
 2. *Commit it*:
  ```
- git commit -m <message here>
+ git commit -m <message>
  ```
 
 #HSLIDE
 
 ### Where do the old versions go?
-
-#HSLIDE
-
-### Undoing your last set of Changes
-If you've _added_ files that you want to undo, the command you seek is `git reset`. To reset a single file, it's `git reset HEAD <filename>`.
-
 
 #HSLIDE
 

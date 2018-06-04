@@ -17,6 +17,8 @@ June 2 · Brian Bancroft
     - Before: Maps/cordination/technician in the O&G Sector
     - Before: Army
 
+# HSLIDE
+
 ## The plan:
 
 * Give a brief overview on what versioning is

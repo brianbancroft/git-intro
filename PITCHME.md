@@ -36,7 +36,7 @@ June 2 · Brian Bancroft
 
 ### Step 1: Get Wifi!
 
-#HSLIDE
+#VSLIDE
 
 # Setup
 
@@ -101,7 +101,8 @@ git add <filename>
 ```
   - or
 ```
-git add .```
+git add .
+```
 
 2. *Commit it*:
  ```

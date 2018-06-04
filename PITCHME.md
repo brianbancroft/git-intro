@@ -1,15 +1,21 @@
-# GIT
-## An Introduction to Git
+# `GIT INIT`
+### An Introduction to Git
 
-Monday, June 2, 2018
-Brian Bancroft
+June 2 · Brian Bancroft
 
 
 #HSLIDE
 
 ![img](img/versioncomic.png)
 
-#HSLIDE
+#VSLIDE
+
+## About Me
+
+- Software Developer @EQWorks
+- 4 Years a developer.
+    - Before: Maps/cordination/technician in the O&G Sector
+    - Before: Army
 
 ## The plan:
 

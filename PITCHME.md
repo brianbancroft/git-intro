@@ -1,7 +1,7 @@
 # GIT
 An Introduction to Git
 
-Date: Wednesay, November 22, 2017 
+Date: Monday, June 2, 2018
 
 #HSLIDE
 
@@ -58,15 +58,15 @@ git config --global user.email hello@brianbancroft.ca
 
 #### To initialize a repo:
 1. Navagate to the programming directory:
-  For PC Users: Go to ```C:\``` directory, then 
+  For PC Users: Go to ```C:\``` directory, then
   ```
   mkdir git-intro
   ```
-  For Mac/Linux: ```cd ~/```, then 
+  For Mac/Linux: ```cd ~/```, then
   ```
   mkdir git-intro
   ```
- 2. Initialize a repo by typing in 
+ 2. Initialize a repo by typing in
  ```
  git init
  ```
@@ -74,7 +74,7 @@ git config --global user.email hello@brianbancroft.ca
 #HSLIDE
 
 ### Git status
-```git status``` shows the status of your repo including changes that are staged, or unstaged. 
+```git status``` shows the status of your repo including changes that are staged, or unstaged.
 
 #HSLIDE
 
@@ -85,10 +85,10 @@ git config --global user.email hello@brianbancroft.ca
 ## Commiting to a Changes
 Once you've made a file with a few lines:
 
-1. *Stage it*: 
+1. *Stage it*:
 ```
 git add <filename>
-``` 
+```
   - or;
 ```
 git add .```
@@ -123,7 +123,7 @@ git checkout -- <filename>
 
 ## Logs and Diffs
 
-* If you wish to track the commits in a branch: 
+* If you wish to track the commits in a branch:
 ```
 git log
 ```
@@ -140,19 +140,19 @@ git log
 
 ### Branch Commands
 
-* View Branches: 
+* View Branches:
 ```
 git branch
 ```
-* Create new Branch: 
+* Create new Branch:
 ```
 git checkout -b new-branch
 ```
-* Switch from _new-branch_ to _master_: 
+* Switch from _new-branch_ to _master_:
 ```
 git checkout master
 ```
-* Switch back to new branch: 
+* Switch back to new branch:
 ```
 git checkout new-branch
 ```
@@ -162,7 +162,7 @@ git checkout new-branch
 ### Merge
 
 * Go to the destination branch
-* Merge in the source branch: 
+* Merge in the source branch:
 ```
 git merge new-branch
 ```
@@ -193,8 +193,8 @@ git clone https://github.com/<your user name here!>/leaflet-git-exercise.git
 ## Thank you!
 
 #HSLIDE
-### Source Material: 
+### Source Material:
 * http://swcarpentry.github.io/git-novice/
 * http://try.github.io
 
-Copyright © Software Carpentry 
+Copyright © Software Carpentry

@@ -1,7 +1,9 @@
 # GIT
-An Introduction to Git
+## An Introduction to Git
 
-Date: Monday, June 2, 2018
+Monday, June 2, 2018
+Brian Bancroft
+
 
 #HSLIDE
 
